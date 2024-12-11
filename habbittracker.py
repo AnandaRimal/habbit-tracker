@@ -2,8 +2,8 @@ import os
 import requests
 from datetime import datetime
 
-USERNAME = "anandarimal1"  # Replace with your new username
-TOKEN = os.getenv("token")  # Replace with your new token name in the environment
+USERNAME = "anandarimal1"
+TOKEN = os.getenv("token")
 GRAPH_ID = "coding-graph"
 
 pixela_endpoint = "https://pixe.la/v1/users"
